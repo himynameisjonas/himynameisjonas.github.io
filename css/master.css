@@ -1,0 +1,99 @@
+/* @override http://himynameisjonas.net/css/master.css */
+
+@import 'reset.css';
+
+body {
+	background: white;
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-top: 10%
+}
+
+#content {
+	
+}
+
+h1 {
+	display: none;
+	visibility: hidden;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	color: #333;
+	font: bold 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	color: #333;
+	font: bold 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-top: 5em;
+}
+
+a {
+	text-decoration: none;
+	color: #342917;
+	padding-right: 1em;
+	padding-left: .3em;
+}
+
+a:hover {
+	text-decoradtion: underline;
+}
+
+p,li {
+	font: bold 4.5em/1em Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	letter-spacing: -.06em;
+}
+
+p {
+	margin-bottom: .3em;
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 3em;
+}
+
+li {
+	list-style: none;
+}
+
+a.one:hover {
+	color: #AEEE00;
+}
+
+a.two:hover, table td a:hover {
+	color: #01B0F0;
+}
+
+a.three:hover, table th a:hover {
+	color: #FF358B;
+}
+
+a.four:hover {
+	color: #717171;
+}
+
+a.five:hover {
+	color: #717171;
+}
+
+/* MISCMISC */
+table {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	margin-bottom: 5em;
+}
+
+th {
+font: bold 1.5em/1em Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	letter-spacing: -.06em;
+	text-transform: lowercase;
+}
+td {
+padding-right: 2em;
+	line-height: 1.4em;
+}
+

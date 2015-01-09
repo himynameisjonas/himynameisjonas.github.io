@@ -1,0 +1,121 @@
+@import 'reset.css';
+
+/* ALERTRUTAN */
+
+#alert {
+	font-family:"Trebuchet MS",arial,sans-serif;
+	line-height: 1.7em;
+	background-color: #fff592;
+	padding: .5em;
+	border: 1px solid black;
+	width: 25em;
+	margin-left: 6em;
+	margin-bottom: 3em;
+}
+
+#alert h2{
+	font-size: 1em;
+	line-height: 1em;
+	margin-bottom: .5em;
+}
+
+#alert p{
+	margin-bottom: 1em;
+	line-height: 1.1em;
+}
+
+#alert li{
+	list-style-type: disc;
+	margin-left: 1.5em;
+	line-height: 1.4em;
+}
+/* HÄR BÖRJAR VANLIGA */
+
+body {
+	background: white;
+	margin-top: 3em;
+	color: #000;
+	font-family:"Trebuchet MS",arial,sans-serif;
+
+}
+
+#header {
+	margin-left: 6em;
+}
+
+#footer {
+	margin-left: -6em;
+	background: #333;
+	margin-right: -6em;
+	padding: 1em 6em;
+	color: #fff;
+}
+
+#content {
+	max-width: 46em;
+	font-size: 0.95em;
+	line-height: 1.6em;
+	width:expression(document.body.clientWidth > 700? "700px": "auto" );
+}
+
+.post {
+	margin-bottom: 3em;
+}
+.body {
+	margin-left: 6em;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	margin-bottom: 1em;
+	color: #333;
+	font: bold 3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+h2 {
+	text-transform: uppercase;
+	font: bold 2em/1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #333;
+}
+
+.rubrik {
+	background: #333;
+	padding-left: 6em;
+	padding-top: 1em;
+	padding-bottom: .1em;
+}
+
+.rubrik h2, .rubrik .meta {
+	color: #fff;
+}
+
+h2 a, .meta a {
+	color: #fff;
+}
+
+.meta {
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	margin-bottom: 1em;
+	color: #333;
+	font: bold 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+}
+
+#content p {
+	margin-bottom: 1em;
+}
+
+a, h2 a:hover, .meta a:hover {
+	text-decoration: none;
+	color: #34B4DA;
+
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+li {
+	list-style: none;	
+}
